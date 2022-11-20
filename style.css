@@ -1,3 +1,50 @@
 body {
     background-color: rgb(165, 35, 35);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color:darkgoldenrod;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+button {
+    font-size: 18px;
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.draw {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(165, 165, 165);
+    margin: 20px;
+    border: solid rgb(24, 24, 24, 0.5);
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.controls {
+    display: flex;
+    max-width: 1000px;
+    gap: 100px;
+}
+
+.sizes {
+    display: flex;
+    gap: 10px;
+}
+
+.colors {
+    display: flex;
+    gap: 10px;
 }
