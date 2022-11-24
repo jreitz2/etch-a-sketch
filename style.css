@@ -25,12 +25,12 @@ button {
 .draw {
     width: 500px;
     height: 500px;
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(165, 165, 165)  !important;
     margin: 20px;
     border: solid rgb(24, 24, 24, 0.5);
     border-style: inset;
     border-width: 5px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .controls {
